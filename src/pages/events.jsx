@@ -13,7 +13,7 @@ import venue8 from "../assets/venue8.jpg";
 import venue9 from "../assets/venue9.jpg";
 import venue10 from "../assets/venue10.jpg";
 import venue11 from "../assets/venue11.jpg";
-export default function App() {
+export default function Events() {
   const [activeTab, setActiveTab] = useState("All Venues");
 
   const venues = [
