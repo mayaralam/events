@@ -4,7 +4,7 @@ import story from "../assets/story.png";
 import foot from "../assets/foot.png";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/footer";
-export default function about() {
+export default function About() {
   const navigate = useNavigate();
   const testimonials = [
     {
@@ -277,33 +277,6 @@ export default function about() {
         </div>
       </div>
       <Footer />
-
-      {/* <aside className="w-full md:w-80 bg-white text-black border-l border-gray-200 p-6 shadow-lg fixed right-0 top-0 h-screen overflow-y-auto z-50">
-      <h2 className="text-xl font-bold text-gray-800 mb-2">Book Your Event</h2>
-      <p className="text-sm text-gray-600 mb-4">Fill out the form and we'll reply within 24 hours</p>
-
-      
-      <form className="space-y-3 mb-6">
-        <input type="text" placeholder="Your name" className="w-full border rounded px-3 py-2 text-sm" />
-        <input type="email" placeholder="your@email.com" className="w-full border rounded px-3 py-2 text-sm" />
-        <input type="tel" placeholder="(123) 456-7890" className="w-full border rounded px-3 py-2 text-sm" />
-        <input type="text" placeholder="e.g., Wedding, Birthday" className="w-full border rounded px-3 py-2 text-sm" />
-        <input type="date" className="w-full border rounded px-3 py-2 text-sm" />
-        <textarea placeholder="Tell us about your event..." rows="3" className="w-full border rounded px-3 py-2 text-sm" />
-        <button type="submit" className="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700 transition text-sm">Submit Request</button>
-      </form>
-
-      <div className="text-sm text-gray-700 space-y-2">
-        <div><strong>Phone:</strong> (555) 123-4567</div>
-        <div><strong>Email:</strong> hello@eventify.com</div>
-        <div><strong>Location:</strong> 123 Event Street, New York, NY 10001</div>
-        <div>
-          <strong>Hours:</strong><br />
-          Mon - Fri: 9AM - 6PM<br />
-          Sat: 10AM - 4PM
-        </div>
-      </div>
-    </aside> */}
     </>
   );
 }

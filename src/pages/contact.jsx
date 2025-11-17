@@ -2,7 +2,7 @@ import Nav from "../components/nav";
 import bg from "../assets/bg.png";
 import { Toaster, toast } from "react-hot-toast";
 import Footer from "../components/footer";
-export default function contact() {
+export default function Contact() {
     const handleSubmit = (event) => {
     event.preventDefault(); 
     toast.success("Your request has been submitted!");

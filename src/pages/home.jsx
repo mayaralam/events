@@ -16,7 +16,7 @@ import { Card } from "flowbite-react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/footer";
-export default function home() {
+export default function Home() {
   const navigate = useNavigate();
   const [event, setEvent] = useState([
     {

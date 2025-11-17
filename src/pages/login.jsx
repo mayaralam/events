@@ -3,7 +3,7 @@ import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import backg from "../assets/backg.jpg";
-export default function login() {
+export default function Login() {
   const navigate = useNavigate();
   const validationSchema = yup.object({
     email: yup
