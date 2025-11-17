@@ -1,4 +1,4 @@
-import Nav from "../components/nav.jsx";
+import Nav from "../components/nav";
 import bcg from "../assets/bcg.png";
 import event1 from "../assets/event1.jpg";
 import event2 from "../assets/event2.jpg";
